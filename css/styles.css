@@ -704,39 +704,37 @@ body {
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
-  color: var(--label-text-color);
+  color: #8e8f99;
+}
+
+.review-form-checkbox-wrapper {
+  margin-bottom: 24px;
 }
 
 .span-policy {
-  width: 16px;
-  height: 16px;
-  border: 1px solid rgba(46, 47, 66, 0.4);
-  border-radius: 2px;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  fill: transparent;
-  text-decoration: underline;
-  line-height: 133%;
-    text-decoration: underline;
-    text-decoration-skip-ink: none;
-    color: var(--iris);
+    justify-content: center;
+    align-items: center;
+    width: 16px;
+    height: 16px;
+    border-radius: 2px;
+    border: 1px solid rgba(46, 47, 66, 0.4);
+    cursor: pointer;
+    fill: transparent;
+    margin-right: 8px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+      border 250ms cubic-bezier(0.4, 0, 0.2, 1),
+      fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.review-form-checkbox-wrapper .span-policy {
-  background-color: transparent;
-  transition: background-color 0.3s ease;
+.review-form-checkbox:focus + .review-form-checkbox-label > .span-policy {
+  border: 1px solid #4d5ae5;
 }
 
-.review-form-checkbox:checked+.review-form-checkbox-label .span-policy {
-  background-color: var(--background-checked-color);
+.review-form-checkbox:checked + .review-form-checkbox-label> .span-policy {
+  background-color: #404bbf;
   border: none;
-}
-
-.review-form-checkbox:checked+.review-form-checkbox-label .span-policy .checked-marker {
-  fill: var(--icon-checked-color);
-  /* Зміна кольору іконки при checked */
+  fill: #f4f4fd;
 }
 
 .checked-marker {
@@ -745,29 +743,33 @@ body {
 }
 
 .a-p-p {
+  text-decoration: underline;
+  line-height: 1.33333;
+  text-decoration-skip-ink: none;
   color: #4d5ae5;
+}
+
+.a-p-p:focus {
+  border: 1px solid #4d5ae5;
 }
 
 .review-form-submit-btn {
   font-family: "Roboto", sans-serif;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-  color: #ffffff;
-  cursor: pointer;
-  background-color: #4D5AE5;
-  border: none;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  display: block;
-  min-width: 169px;
-  height: 56px;
-  align-items: flex-start;
-  justify-content: flex-start;
-  flex-direction: row;
-  gap: 10px;
-  border-radius: 4px;
-  padding: 16px 32px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    background-color: #4d5ae5;
+    min-width: 169px;
+    height: 56px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* ----------------------------------------------
