@@ -766,6 +766,10 @@ body {
 }
 
 .review-form-field-wrapper {
+  margin-bottom: 8px;
+}
+
+.review-form-field-wrapper1 {
   margin-bottom: 16px;
 }
 
