@@ -708,7 +708,8 @@ body {
 }
 
 .review-form-checkbox-wrapper {
-  margin-bottom: 24px;
+  margin-top: 24px;
+  margin-bottom:24px;
 }
 
 .span-policy {
