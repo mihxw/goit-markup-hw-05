@@ -823,6 +823,10 @@ body {
   border: 1px solid #4d5ae5;
 }
 
+.textarea-box {
+  margin-bottom: 16px;
+}
+
 .review-form-checkbox:checked + .review-form-checkbox-label> .span-policy {
   background-color: #404bbf;
   border: none;
