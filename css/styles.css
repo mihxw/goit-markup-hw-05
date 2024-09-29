@@ -729,7 +729,6 @@ body {
 
 .review-form-checkbox:focus + .review-form-checkbox-label > .span-policy {
   border: 1px solid #4d5ae5;
-  fill: #4D5AE5;
 }
 
 .review-form-checkbox:checked + .review-form-checkbox-label> .span-policy {
@@ -739,9 +738,9 @@ body {
 }
 
 .checked-marker {
-  fill: #000;
-  transition: fill 0.3s ease;
+  fill: transparent;
 }
+
 
 .a-p-p {
   text-decoration: underline;
@@ -772,6 +771,11 @@ body {
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     cursor: pointer;
+}
+
+.review-form-submit-btn:hover,
+.review-form-submit-btn:focus {
+  background-color: #404bbf;
 }
 
 /* ----------------------------------------------
