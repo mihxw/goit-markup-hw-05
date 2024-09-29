@@ -828,7 +828,7 @@ body {
 }
 
 .textarea-box {
-  margin-bottom: 16px;
+  margin-bottom: 24px;
 }
 
 .review-form-checkbox:checked + .review-form-checkbox-label> .span-policy {
