@@ -717,7 +717,7 @@ body {
 
 .svg-input {
   position: relative;
-  margin-bottom: 16px;
+  margin-bottom: 8px;
 }
 
 .modal-slogan {
@@ -876,6 +876,10 @@ body {
   background-color: #404bbf;
 }
 
+.modal-backdrop .review-form-field-wrapper {
+  margin-bottom: 16px;
+  /* Modify or change the value as needed */
+}
 
 /* ----------------------------------------------
    Utility Classes
