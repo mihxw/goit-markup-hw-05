@@ -674,6 +674,9 @@ body {
 
 .modal {
   position: absolute;
+  display: flex;
+    flex-direction: column;
+    gap: 16px;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -767,7 +770,7 @@ body {
 }
 
 .review-form-field-wrapper {
-    margin-bottom: 16px !important;  
+    margin-bottom: 8px;  
 }
 
 .review-form-input:focus+.modal-icon {
