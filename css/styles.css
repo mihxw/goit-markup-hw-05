@@ -767,7 +767,7 @@ body {
 }
 
 .review-form-field-wrapper {
-  margin-bottom: 8px;
+  margin-bottom: 16px;
 }
 
 .review-form-input:focus+.modal-icon {
@@ -803,7 +803,6 @@ body {
 }
 
 .review-form-checkbox-wrapper {
-  margin-top: 24px;
   margin-bottom: 24px;
 }
 
