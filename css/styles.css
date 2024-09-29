@@ -625,6 +625,7 @@ body {
 
 .svg-input {
   position: relative;
+  margin-bottom: 8px;
 }
 
 .modal-slogan {
@@ -633,7 +634,7 @@ body {
   line-height: 1.5;
   text-align: center;
   letter-spacing: 0.02em;
-  color: var(--text-color);
+  color: #2E2F42;
   margin-bottom: 16px;
 }
 
@@ -716,6 +717,11 @@ body {
   align-items: center;
   justify-content: center;
   fill: transparent;
+  text-decoration: underline;
+  line-height: 133%;
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+    color: var(--iris);
 }
 
 .review-form-checkbox-wrapper .span-policy {
@@ -724,13 +730,18 @@ body {
 }
 
 .review-form-checkbox:checked+.review-form-checkbox-label .span-policy {
-  background-color: #404bbf;
+  background-color: var(--background-checked-color);
   border: none;
-  fill: #F4F4FD;
+}
+
+.review-form-checkbox:checked+.review-form-checkbox-label .span-policy .checked-marker {
+  fill: var(--icon-checked-color);
+  /* Зміна кольору іконки при checked */
 }
 
 .checked-marker {
-
+  fill: #000;
+  transition: fill 0.3s ease;
 }
 
 .a-p-p {
