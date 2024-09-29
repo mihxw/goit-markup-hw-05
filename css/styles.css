@@ -717,7 +717,7 @@ body {
 
 .svg-input {
   position: relative;
-  margin-bottom: 8px;
+  margin-bottom: 16px;
 }
 
 .modal-slogan {
@@ -767,7 +767,7 @@ body {
 }
 
 .review-form-field-wrapper {
-  margin-bottom: 16px;
+  margin-bottom: 8px;
 }
 
 .review-form-input:focus+.modal-icon {
